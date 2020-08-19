@@ -1,0 +1,100 @@
+.container{
+    max-width: var(--website-width);
+    padding: 0 1rem;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-light{
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    background-color: var(--light-color);
+    margin-top: 1.5rem;
+}
+.btn-main{
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    background-color: var(--main-color);
+}
+.btn-dark{
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
+.btn-main:hover,.btn-light:hover,.btn-dark:hover{
+    background-color: var(--main-color);
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.py-4{
+    padding: 4rem 0;
+}
+
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.my-3{
+    margin: 3rem 0;
+}
+.my-4{
+    margin: 4rem 0;
+}
+
+.section-title{
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.bottom-line{
+    height: 2px;
+    width: 3rem;
+    background-color: var(--main-color);
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.bg-light{
+     background-color: var(--aquamarine);
+     color: black;
+}
+.bg-dark{
+     background-color: var(--dark-color);
+     color: whitesmoke;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+
