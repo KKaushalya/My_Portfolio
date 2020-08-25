@@ -25,6 +25,13 @@
         padding: 0.2rem 0.5rem;
         margin-top: 0rem;
         text-align: left;
+        background: transparent;
+        color: whitesmoke;
+    }
+    
+    .header-content a:hover{
+        color: palegreen;
+        background: transparent;
     }
 
     .menu-wrap .hamburger{
